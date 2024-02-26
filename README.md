@@ -1,6 +1,6 @@
 # tfversion/docs
 
-<img src="https://storage.googleapis.com/gopherizeme.appspot.com/gophers/cd3d0af2ddb25c058f511d6927b3ef701c30a493.png" width="125" height="125"> [![mkdocs-material](https://img.shields.io/badge/mkdocs--material-gray?logo=materialformkdocs)](https://tfversion.xyz)
+<img src="https://storage.googleapis.com/gopherizeme.appspot.com/gophers/31e433b6b4ea0e11257fffebe26893d2259f34c6.png" width="125" height="125"> [![mkdocs-material](https://img.shields.io/badge/mkdocs--material-gray?logo=materialformkdocs)](https://tfversion.xyz)
 
 Repository that hosts [docs](https://tfversion.xyz) for [tfversion](https://github.com/tfversion/tfversion).
 
