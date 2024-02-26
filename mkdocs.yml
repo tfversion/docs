@@ -1,0 +1,59 @@
+site_name: 'tfversion'
+site_description: 'Documentation for tfversion'
+site_author: 'tfversion'
+site_url: 'https://tfversion.xyz'
+copyright: 'Copyright &copy; 2024 tfversion'
+index_page: index.md
+
+repo_name: tfversion/docs
+repo_url: https://github.com/tfversion/docs
+edit_uri: https://github.com/tfversion/docs/edit/main/docs
+
+use_directory_urls: false
+
+nav:
+  - Home: index.md
+  - Packages:
+    - Number: packages/number/index.md
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.png
+  palette:
+    scheme: hashicorp
+    primary: white
+    accent: blue
+  icon:
+    repo: fontawesome/brands/github
+  font: false
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+    - navigation.tabs
+    - navigation.prune
+    - content.tabs.link
+    - content.action.edit
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - md_in_html
+  - attr_list
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tfversion
+
+extra_javascript:
+  - js/replace_links.js
