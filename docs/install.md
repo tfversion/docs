@@ -11,8 +11,9 @@ brew install tfversion/tap/tfversion
 You can also download the latest binary from the [GitHub releases page](https://github.com/tfversion/tfversion/releases).
 
 Supported platforms are:
-- `darwin/amd64`
-- `darwin/arm64`
-- `linux/amd64`
-- `linux/arm64`
-- `linux/386`
+
+* `darwin/amd64`
+* `darwin/arm64`
+* `linux/amd64`
+* `linux/arm64`
+* `linux/386`
