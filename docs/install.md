@@ -25,3 +25,5 @@ To ensure that `tfversion` is always available in your shell, append the followi
 ```sh
 export PATH="$HOME/.tfversion/bin:$PATH"
 ```
+
+We prefer to not automagically modify your shell profile, and therefore leave this step to you.
