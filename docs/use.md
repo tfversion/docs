@@ -1,6 +1,6 @@
 In developing `tfversion`, our 2 focus points are simplicity and ensuring a smooth user experience, enabling you to effortlessly use Terraform on any platform.
 
-## Installation
+## Installing a Terraform version
 
 Installing a Terraform version can be done in a few ways:
 
@@ -28,7 +28,7 @@ tfversion install --latest --pre-release
 tfversion install --required
 ```
 
-## Use
+## Using a Terraform version
 
 Once you have installed a Terraform version, you can activate it with the `use` command.
 
@@ -56,7 +56,7 @@ tfversion use --latest --pre-release
 tfversion use --required
 ```
 
-## List
+## Listing Terraform versions
 
 If you're curious which Terraform versions are available or installed, you can use the `list` command.
 
@@ -72,7 +72,7 @@ tfversion list
 tfversion list --installed
 ```
 
-## Uninstall
+## Uninstalling a Terraform version
 
 If you want to remove a Terraform version, you can use the `uninstall` command.
 
