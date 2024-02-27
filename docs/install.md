@@ -17,3 +17,11 @@ Supported platforms are:
 * `linux/amd64`
 * `linux/arm64`
 * `linux/386`
+
+### Configuring your shell
+
+To ensure that `tfversion` is always available in your shell, append the following line to your shell profile (e.g., .bashrc, .zshrc or fish config):
+
+```sh
+export PATH="$HOME/.tfversion/bin:$PATH"
+```
