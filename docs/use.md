@@ -22,6 +22,12 @@ tfversion install 1.7.4
 tfversion install --latest --pre-release
 ```
 
+### Install the required version for your current directory
+
+```sh
+tfversion install --required
+```
+
 ## Use
 
 Once you have installed a Terraform version, you can activate it with the `use` command.
