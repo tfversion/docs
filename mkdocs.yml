@@ -13,8 +13,8 @@ use_directory_urls: false
 
 nav:
   - Home: index.md
-  - Packages:
-    - Number: packages/number/index.md
+  - Install: install.md
+  - Use: use.md
 
 theme:
   name: material
