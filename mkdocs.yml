@@ -25,7 +25,6 @@ theme:
     accent: blue
   icon:
     repo: fontawesome/brands/github
-  font: false
   features:
     - navigation.instant
     - navigation.tracking
@@ -46,6 +45,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - privacy
 
 extra:
   social:
