@@ -1,4 +1,6 @@
-### Homebrew
+# Installation
+
+## Homebrew
 
 Installing `tfversion` can be done in 2 ways. If you're using homebrew, you can install it with:
 
@@ -6,7 +8,7 @@ Installing `tfversion` can be done in 2 ways. If you're using homebrew, you can 
 brew install tfversion/tap/tfversion
 ```
 
-### Binaries
+## Binaries
 
 You can also download the latest binary from the [GitHub releases page](https://github.com/tfversion/tfversion/releases).
 
@@ -18,7 +20,7 @@ Supported platforms are:
 * `linux/arm64`
 * `linux/386`
 
-### Configuring your shell
+## Configuring your shell
 
 To ensure that `tfversion` is always available in your shell, append the following line to your shell profile (e.g., .bashrc, .zshrc or fish config):
 
