@@ -11,7 +11,7 @@ tfversion --help
 tfversion list --help
 ```
 
-## Installing
+## Install
 
 Installing a Terraform version can be done in a few ways:
 
@@ -148,7 +148,7 @@ Shows all aliases and their target versions.
 tfversion list --aliases
 ```
 
-## Uninstalling
+## Uninstall
 
 If you want to remove a Terraform version, you can use the `uninstall` command.
 
