@@ -1,3 +1,8 @@
+---
+hide:
+- navigation
+---
+
 # Home
 
 `tfversion` is a command line tool to install and manage Terraform versions.
