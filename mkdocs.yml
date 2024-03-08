@@ -12,8 +12,14 @@ use_directory_urls: false
 
 nav:
   - Home: index.md
-  - Install: install.md
-  - Use: use.md
+  - Installation: installation.md
+  - Usage:
+    - Help: usage/help.md
+    - Install: usage/install.md
+    - Use: usage/use.md
+    - Alias: usage/alias.md
+    - List: usage/list.md
+    - Current: usage/current.md
 
 theme:
   name: material
@@ -32,8 +38,9 @@ theme:
     - navigation.expand
     - navigation.footer
     - navigation.prune
+    - navigation.tabs
     - content.tabs.link
-
+  
 markdown_extensions:
   - admonition
   - pymdownx.highlight
