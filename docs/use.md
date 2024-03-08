@@ -52,8 +52,6 @@ tfversion install --required
 
 Once you have installed a Terraform version, you can activate it with the `use` command.
 
-> Note: When using a version, it must always be installed first!
-
 ### Use latest stable
 
 Use the latest stable version.
@@ -86,6 +84,15 @@ Use the most recent version that matches with the required version in your curre
 tfversion use --required
 ```
 
+### Automatically install when missing
+
+Use a version and automatically install if you don't have it yet.
+
+```sh
+tfversion use 1.7.4 --install
+tfversion use --latest --install
+```
+
 ## Alias
 
 If you don't want to remember which version you are using for a specific purpose (for example a client), you can use the alias feature.
@@ -108,6 +115,16 @@ tfversion use default
 tfversion use my-client
 ```
 
+## Unalias
+
+You can remove an alias once you're done with it.
+
+### Remove an alias
+
+```sh
+tfversion unalias my-client
+```
+
 ## List
 
 If you're curious which Terraform versions are available or installed, you can use the `list` command.
@@ -120,24 +137,12 @@ Shows all available versions from the HashiCorp API sorted with the most recent 
 tfversion list
 ```
 
-You can limit the amount of results.
-
-```sh
-tfversion list --max-results=10
-```
-
 ### List all installed versions
 
 Shows all installed versions.
 
 ```sh
 tfversion list --installed
-```
-
-You can limit the amount of results.
-
-```sh
-tfversion list --installed --max-results=10
 ```
 
 ### List aliases
@@ -148,10 +153,34 @@ Shows all aliases and their target versions.
 tfversion list --aliases
 ```
 
+### List pre-release versions
+
+Shows all pre-release versions.
+
+```sh
+tfversion list --pre-release
+```
+
+### Limit results
+
+You can limit the amount of results in any `list` command.
+
+```sh
+tfversion list --max-results=10
+```
+
 ## Uninstall
 
 If you want to remove a Terraform version, you can use the `uninstall` command.
 
 ```sh
 tfversion uninstall 1.7.4
+```
+
+## Current
+
+If you want to know which Terraform version is currently active.
+
+```sh
+tfversion current
 ```
